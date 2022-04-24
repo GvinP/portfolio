@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: aqua;
+}
+
+.headerNavigation {
+    display: flex;
+    justify-content: flex-end;
+}

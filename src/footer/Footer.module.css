@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    align-items: center;
+    min-height: 220px;
+    background-color: #9fdaa3;
+}
+
+.list {
+    max-width: 360px;
+}

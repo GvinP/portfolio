@@ -1,0 +1,19 @@
+.project {
+    width: 280px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-color: #e7c0c0;
+}
+
+.link {
+    display: block;
+    width: 130px;
+    height: 30px;
+    background-color: #cecece;
+}
