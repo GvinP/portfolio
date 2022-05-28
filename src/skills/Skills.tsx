@@ -2,6 +2,7 @@ import React from 'react';
 import style from './Skills.module.css'
 import styleContainer from '../common/Container.module.css'
 import Skill from "./skill/Skill";
+import Header from "../header/Header";
 
 const Skills = () => {
     const skills = [
@@ -19,14 +20,18 @@ const Skills = () => {
         }
     ]
     return (
-        <div className={`${style.skills} ${styleContainer.page}`}>
-            <div className={`${styleContainer.container} ${styleContainer.listContainer}`}>
-                <h2>Мои скилы</h2>
-                <div className={styleContainer.list}>
-                    {skills.map((el,index)=><Skill title={el.title} description={el.description}/>)}
+        <div>
+            <Header color={'#27B016'} text={' / skills'}/>
+            <div className={`${style.skills} ${styleContainer.page}`}>
+                <div className={`${styleContainer.container} ${styleContainer.listContainer}`}>
+                    <h2>Мои скилы</h2>
+                    <div className={styleContainer.list}>
+                        {skills.map((el,index)=><Skill title={el.title} description={el.description}/>)}
+                    </div>
                 </div>
             </div>
         </div>
+
     );
 };
 

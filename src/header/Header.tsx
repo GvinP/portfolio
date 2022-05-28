@@ -1,17 +1,19 @@
 import React from 'react';
 import style from './Header.module.css'
-import styleContainer from '../common/Container.module.css'
-import Navigation from "../navigation/Navigation";
 
-const Header = () => {
-    const navigation = ['Главная', 'Скилы', 'Работа', 'Контакты']
+type HeaderPropsType = {
+    color: string
+    text: string
+}
+
+const Header = (props: HeaderPropsType) => {
+
     return (
         <div className={style.header}>
-            <div className={styleContainer.container}>
-                <div className={style.headerNavigation}>
-                    <Navigation navigationList={navigation}/>
-                </div>
-            </div>
+            <div className={style.headerBlock} style={{backgroundColor: `${props.color}`}}></div>
+            <div className={style.title}><p>alexey kudriashov</p></div>
+            <div className={style.title} style={{color: `${props.color}`}}><span>{props.text}</span></div>
+            <div></div>
         </div>
     );
 };
