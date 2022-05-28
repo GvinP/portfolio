@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: #e7c0c0;
+    /*background-color: #e7c0c0;*/
 }
 
 .main {
@@ -21,6 +21,11 @@
 .navigation {
     display: flex;
     justify-content: flex-end;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: 10%;
+    padding-top: 2%;
 }
 .mainContainer {
     flex-grow: 2;
@@ -28,7 +33,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
 }
 
 .presentation {
@@ -36,20 +41,64 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #cecece;
-    border: 1px solid red;
+    /*background-color: #cecece;*/
+    /*border: 1px solid red;*/
+}
+.title  {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 2%;
+    padding: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+.description {
+    margin-bottom: 10%;
+    font-size: 1.2em;
 }
 .photo {
     width: 50%;
 }
+.photoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    /*border: 1px solid red;*/
+}
+
+.react {
+    position: absolute;
+    left: 10%;
+    top: 5%
+}
+
+.typescript {
+    position: absolute;
+    left: 65%;
+    top: 55%;
+}
+
+.redux {
+    position: absolute;
+    left: 10%;
+    top: 80%;
+}
+
 .image {
     width: 100%;
-    background-color: #cecece;
+    /*background-color: #cecece;*/
 }
-.photoContainer {
+.imageContainer {
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }

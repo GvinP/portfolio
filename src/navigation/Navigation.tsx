@@ -8,7 +8,7 @@ export type NavigationPropsType = {
 const Navigation = (props: NavigationPropsType) => {
     return (
         <div className={style.navigation}>
-            {props.navigationList.map((el, index) => <a key={index}>{el}</a>)}
+            {props.navigationList.map((el, index) => <a className={style.navigationLink} href={'#'} key={index}>{el}</a>)}
         </div>
     );
 };

@@ -17,15 +17,17 @@ const Main = () => {
                 </div>
                 <div className={`${style.mainContainer} ${styleContainer.container}`}>
                     <div className={style.presentation}>
-                        <span>Looking for a web-developer?</span>
-                        <h1>I am Alexey Kudriashov</h1>
-                        <span>a frontend developer living in Batumi, Georgia</span>
-                        <span>React</span>
-                        <span>Typescript</span>
-                        <span>Redux</span>
-                        <img src={portrait} className={style.photo}/>
+                        <span className={style.title}>Looking for a web-developer?</span>
+                        <h1 className={style.name}>I am Alexey Kudriashov</h1>
+                        <span className={style.description}>a frontend developer living in Batumi, Georgia</span>
+                        <div className={style.photoContainer}>
+                            <span className={style.react}>React</span>
+                            <span className={style.typescript}>Typescript</span>
+                            <span className={style.redux}>Redux</span>
+                            <img src={portrait} className={style.photo}/>
+                        </div>
                     </div>
-                    <div className={style.photoContainer}>
+                    <div className={style.imageContainer}>
                         <img src={fox} className={style.image}/>
                     </div>
                 </div>

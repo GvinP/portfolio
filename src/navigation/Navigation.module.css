@@ -2,6 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
-    border: 1px solid;
+    width: 400px;
+    /*border: 1px solid;*/
+}
+
+.navigationLink {
+    color: #000000;
+}
+
+.navigationLink:hover, .navigationLink:active {
+    color: #FFAA00;
+    cursor: pointer;
 }
