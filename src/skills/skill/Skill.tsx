@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './Skill.module.css'
+import style from '../Skills.module.css'
 import styleContainer from '../../common/Container.module.css'
 
 export type SkillPropsType = {
@@ -9,7 +9,7 @@ export type SkillPropsType = {
 
 const Skill = (props: SkillPropsType) => {
     return (
-        <div className={styleContainer.itemContainer}>
+        <div className={`${styleContainer.itemContainer} ${style.skillContainer}`}>
             <div className={style.logo}></div>
             <h3 className={style.title}>{props.title}</h3>
             <p className={style.description}>{props.description}</p>

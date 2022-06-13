@@ -3,6 +3,20 @@
 }
 
 .form {
-    width: 280px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 720px) {
+    .form {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        justify-content: center;
+    }
 }
