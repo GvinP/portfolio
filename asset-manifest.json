@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1e042be0.css",
-    "main.js": "/portfolio/static/js/main.aa670ca9.js",
+    "main.css": "/portfolio/static/css/main.818e37a1.css",
+    "main.js": "/portfolio/static/js/main.385a4d66.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/fox.png": "/portfolio/static/media/fox.154796fbcc4896a28c32.png",
     "static/media/portrait.jpg": "/portfolio/static/media/portrait.78b6d4833beff5d52d3f.jpg",
+    "static/media/react.svg": "/portfolio/static/media/react.dc7066e3f2288b00a82cc0099217d43e.svg",
+    "static/media/redux.svg": "/portfolio/static/media/redux.d182ea18e584c4d43de13d08ca2bdfa5.svg",
     "static/media/github.svg": "/portfolio/static/media/github.09cb19ef16592ac9cbef0028a49ca9f1.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.a9335adf81e87333349dc7f0700c5da7.svg",
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.38885557d3ca65c52a690e5efe962ff0.svg",
     "index.html": "/portfolio/index.html",
     "static/media/tg.svg": "/portfolio/static/media/tg.3275df2b5d00212bb6214385164c092b.svg",
-    "main.1e042be0.css.map": "/portfolio/static/css/main.1e042be0.css.map",
-    "main.aa670ca9.js.map": "/portfolio/static/js/main.aa670ca9.js.map",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.f4d860344a9fabb865d7e56c0889e048.svg",
+    "static/media/typescript.svg": "/portfolio/static/media/typescript.45366f0f914bc315e57728949f0db533.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.9f0c3f72ee7e828ae4c11f523f802756.svg",
+    "main.818e37a1.css.map": "/portfolio/static/css/main.818e37a1.css.map",
+    "main.385a4d66.js.map": "/portfolio/static/js/main.385a4d66.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e042be0.css",
-    "static/js/main.aa670ca9.js"
+    "static/css/main.818e37a1.css",
+    "static/js/main.385a4d66.js"
   ]
 }
