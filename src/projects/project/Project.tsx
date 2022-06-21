@@ -4,17 +4,17 @@ import styleContainer from '../../common/Container.module.css'
 
 export type ProjectPropsType = {
     title: string
-    description: string
+    link: string
+    image?: string
 }
 
 const Project = (props: ProjectPropsType) => {
     return (
         <div className={`${styleContainer.itemContainer} ${style.project}`}>
-            <div className={style.img}>
-                <a className={style.link}>Посмотреть</a>
-            </div>
-            <h3>{props.title}</h3>
-            <p>{props.description}</p>
+            <a href={`${props.link}`}>
+                <img className={style.img} src={props.image}/>
+            </a>
+            <h3 className={styleContainer.link}>{props.title}</h3>
         </div>
     );
 };

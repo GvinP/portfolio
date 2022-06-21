@@ -1,10 +1,12 @@
 .skills {
-    background-color: #9fdaa3;
+    text-align: center;
 }
 
 .skillContainer {
-    width: 310px;
-    background-color: #ffffff;
+    display: inline-block;
+    padding: 0px 5px;
+    font-size: 0.7em;
+    margin: 3px;
 }
 
 .logo {
@@ -13,9 +15,6 @@
 }
 
 .title {
-
-}
-
-.description {
-
+    font-weight: normal;
+    font-size: 1.2em;
 }

@@ -119,11 +119,15 @@
 @media screen and (max-width: 1024px) {
     .imageContainer {
         width: 50%;
+        margin-top: 10%;
+        margin-top: 10%;
     }
 }
 @media screen and (max-width: 720px) {
     .imageContainer {
         width: 80%;
+        margin-bottom: 10%;
+        margin-bottom: 10%;
     }
 }
 /*@media screen and (max-width: 1024px) {*/
