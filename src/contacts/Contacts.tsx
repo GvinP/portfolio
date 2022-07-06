@@ -19,7 +19,7 @@ const Contacts = () => {
     };
 
     return (
-        <div className={`${style.contacts}`}>
+        <div className={`${style.contacts}`} id={'Contact me'}>
             <div className={`${styleContainer.container} ${styleContainer.listContainer}`}>
                 <h2>Get in touch</h2>
                 <form className={style.form} onSubmit={sendEmail}>

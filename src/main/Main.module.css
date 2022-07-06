@@ -37,12 +37,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     /*background-color: #cecece;*/
     /*border: 1px solid red;*/
 }
 .title  {
     font-size: 1.5em;
     margin-top: 5%;
+    /*text-align: center;*/
 }
 
 .name {
@@ -120,13 +122,13 @@
     .imageContainer {
         width: 50%;
         margin-top: 10%;
-        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
 @media screen and (max-width: 720px) {
     .imageContainer {
         width: 80%;
-        margin-bottom: 10%;
+        margin-top: 10%;
         margin-bottom: 10%;
     }
 }
