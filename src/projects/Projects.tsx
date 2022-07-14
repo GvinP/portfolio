@@ -10,8 +10,8 @@ import Header from "../header/Header";
 const Projects = () => {
     const projects = [
         {
-            title: 'Social Network',
-            link: 'https://github.com/GvinP/SocialNetwork',
+            title: 'Hashtag - Social Network',
+            link: 'https://gvinp.github.io/hashtag-social-network/',
             image: social_background
         },
         {
@@ -21,7 +21,7 @@ const Projects = () => {
         },
         {
             title: 'Rick and Morty database',
-            link: 'https://gvinp.github.io/Rick-and-Morty-database/',
+            link: 'https://gvinp.github.io/rick-and-morty-database/',
             image: rm_background
         }
     ]
